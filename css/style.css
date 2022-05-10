@@ -1,0 +1,126 @@
+/* Configurações Iniciais */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: var(--light-grayish-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+
+:root {
+
+    /* Primary */
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Neutral */
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+/* Fim Configurações Iniciais */
+
+/* Conteudo */
+
+.container-cards {
+    max-width: 110.0rem;
+    
+    
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1.5rem; */
+    
+    
+    
+    
+    
+    background-color: antiquewhite;
+}
+
+.card-daniel {
+    background-color: var(--moderate-violet);
+}
+
+.card-jonathan {
+    background-color: var(--very-dark-grayish-blue);
+}
+
+.card-jeanette {
+    background-color: var(--white);
+}
+
+.card-patrick {
+    background-color: var(--very-dark-blackish-blue);
+}
+
+.card-kira {
+    background-color: var(--white);
+}
+
+.card {
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.img-profile {
+    border-radius: 50%;
+    border: 2px solid;
+    width: 45px;
+}
+
+.text-profile {
+    margin-left: 15px;
+    text-align: left;
+}
+
+.name,.verifired {
+    display: block;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.color-name-white{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.color-name-cinza{
+    color:hsla(217, 30%, 14%, 0.7);
+}
+
+.color-text-white {
+    color:rgba(207, 207, 207, 0.5);
+}
+.color-text-cinza {
+   color:hsla(217, 19%, 35%, 0.5);   
+}
+
+/* Fim Conteudo */
